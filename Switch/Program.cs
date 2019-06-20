@@ -66,17 +66,19 @@ namespace Switch
                 case 4:
                     resultado = a * b;
                     break;
+                //Si no se cumple ningún caso
 
+                default:
+                    Console.WriteLine("Opcion no es válida");
+
+                    break;
                                                          
             }
 
+            Console.WriteLine("El resultado es {0} ", resultado);
+            Console.ReadKey();
 
-
-
-
-
-
-
+                                                         
         }
     }
 }
